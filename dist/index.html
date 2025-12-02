@@ -1,1 +1,53 @@
-<!doctype html><html lang="tr"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/><meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no"/><script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script><title>Random Team Creator</title><script defer="defer" src="main.min.js"></script><link href="main.min.css" rel="stylesheet"></head><body data-template="index"><div class="container"><div class="box"><div class="row"><div class="box-body"><div class="col-12"><div class="box-body-header"><label for="nameInput">Enter the names of the people you want to form a team with.</label> <input id="nameInput" placeholder="Name enter and submit" autocomplete="false" autocapitalize="false"></div><div class="col-12"><div class="box-body-header"><label for="teamCountInput">How many teams do you want to create?</label> <input type="number" id="teamCountInput" min="1" value="2"></div></div><div class="col-12 d-flex justify-content-center"><div class="team-container"><h2 class="text-center">Teams Created:</h2><div id="sonucteam" class="team-result d-flex justify-content-between align-item-center"></div></div></div><div class="col-12"><div class="box-body"><button id="createTeams">Creat!</button></div></div><div class="col-12"><a href="./index.html" class="reflesh">new team for reflesh</a></div></div></div></div></div></div></body></html>
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta id="viewport" name="viewport"
+    content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+  <title>Random Team Creator</title>
+<script defer src="main.min.js"></script><link href="main.min.css" rel="stylesheet"></head>
+
+<body data-template="index">
+  <div class="container">
+    <div class="box">
+      <div class="row">
+        <div class="box-body">
+          <div class="col-12">
+            <div class="box-body-header">
+              <label for="nameInput">
+                Enter the names of the people you want to form a team with.</label>
+              <input type="text" id="nameInput" placeholder="Name enter and submit" autocomplete="false" autocapitalize="false">
+            </div>
+            <div class="col-12">
+            <div class="box-body-header">
+              <label for="teamCountInput">How many teams do you want to create?</label>
+              <input type="number" id="teamCountInput" min="1" value="2">
+            </div>
+          </div>
+          <div class="col-12  d-flex justify-content-center">
+            <div class="team-container">
+              <h2 class="text-center">Teams Created:</h2>
+              <div id="sonucteam" class="team-result d-flex justify-content-between align-item-center"></div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="box-body">
+              <button id="createTeams">Creat!</button>
+            </div>
+          </div>
+          <div class="col-12">
+            <a href="./index.html" class="reflesh">new team for reflesh</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
